@@ -2,14 +2,22 @@
 	font-family: "Arial Rounded MT Bold", "Helvetica Neue", helvetica, sans-serif;
   	font-color: #333;
 }
+h1 {
+	margin-top: 35px;
+}
 	
-h1,h2,h3 {
+h1,h2 {
+	margin-left: 11px;
 	margin: auto;
   	width: 70%;
 }
 	
+h3 {
+  	margin-left: 33px; 
+}
 	
 p {
+  	margin-left: 8px;
   	font-size: 120%;
 	margin: auto;
   	width: 70%;
