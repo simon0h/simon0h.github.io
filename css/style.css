@@ -1,6 +1,6 @@
 * {
-  font-family: "Arial Rounded MT Bold", "Helvetica Neue", helvetica, sans-serif;
-  font-color: #333;
+	font-family: "Arial Rounded MT Bold", "Helvetica Neue", helvetica, sans-serif;
+  	font-color: #333;
 }
 h1 {
 	margin-top: 35px;
@@ -13,7 +13,7 @@ h1,h2 {
 }
 	
 h3 {
-  margin-left: 33px; 
+  	margin-left: 33px; 
 }
 	
 p {
@@ -24,7 +24,7 @@ p {
 }
 	
 p.links , p.paragraphs{
-  margin-left: 49px;
+  	margin-left: 49px;
 }
 
 p.linkArrow {
@@ -32,49 +32,49 @@ p.linkArrow {
 }
 
 #email {
-  margin-left: 15px;
+  	margin-left: 15px;
 }
 
 a:link, a:visited, a:active{
-  color: #359aff;
-  text-decoration: none;
+  	color: #359aff;
+  	text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  	text-decoration: underline;
 }
 
 hr {
-  border: 1px solid black;
-  width: 600px;
-  border-radius: 10px;
-  margin: 0;
+  	border: 1px solid black;
+  	width: 600px;
+  	border-radius: 10px;
+  	margin: 0;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #0c0849;
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #0c0849;
 }
 
 li {
-  float: left;
+  	float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
+  	display: block;
+ 	color: white;
+  	text-align: center;
+  	padding: 16px 16px;
+  	text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #b8e3ef;
+  	background-color: #b8e3ef;
 }
 
 .active {
-  background-color: #b8e3ef;
+  	background-color: #b8e3ef;
 }
