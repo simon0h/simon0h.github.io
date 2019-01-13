@@ -8,6 +8,8 @@ h1 {
 	
 h1,h2 {
 	margin-left: 11px;
+	margin: auto;
+  	width: 70%;
 }
 	
 h3 {
@@ -15,8 +17,10 @@ h3 {
 }
 	
 p {
-  margin-left: 8px;
-  font-size: 120%;
+  	margin-left: 8px;
+  	font-size: 120%;
+	margin: auto;
+  	width: 70%;
 }
 	
 p.links , p.paragraphs{
