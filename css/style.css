@@ -42,8 +42,9 @@ hr {
 
 ul {
   	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
+  	margin: 1%;
+  	padding-right: 30%;
+    	padding-left: 30%;
   	overflow: hidden;
   	background-color: #0c0849;
 }
