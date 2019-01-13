@@ -1,6 +1,6 @@
 * {
   font-family: "Arial Rounded MT Bold", "Helvetica Neue", helvetica, sans-serif;
-  fomt-color: #333;
+  font-color: #333;
 }
 h1 {
 	margin-top: 35px;
@@ -22,25 +22,31 @@ p {
 p.links , p.paragraphs{
   margin-left: 49px;
 }
+
 p.linkArrow {
 	font-size: 300%;
 }
+
 #email {
   margin-left: 15px;
 }
+
 a:link, a:visited, a:active{
   color: #359aff;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 hr {
   border: 1px solid black;
   width: 600px;
   border-radius: 10px;
   margin: 0;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -48,9 +54,11 @@ ul {
   overflow: hidden;
   background-color: #0c0849;
 }
+
 li {
   float: left;
 }
+
 li a {
   display: block;
   color: white;
@@ -58,9 +66,11 @@ li a {
   padding: 16px 16px;
   text-decoration: none;
 }
+
 li a:hover:not(.active) {
   background-color: #b8e3ef;
 }
+
 .active {
   background-color: #b8e3ef;
 }
