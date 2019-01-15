@@ -1,12 +1,12 @@
 * {
 	font-family: "Arial Rounded MT Bold", "Helvetica Neue", helvetica, sans-serif;
-    background-color: #545559;
-    color: #eaf0ff;
+    	background-color: #545559;
+    	color: #eaf0ff;
 }
 
 .header {
-  padding: 4px;
-  text-align: center;
+  	padding: 4px;
+  	text-align: center;
 }
 
 .title {
