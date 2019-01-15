@@ -3,7 +3,12 @@
   	font-color: #333;
 }
 
-h1 {
+.header {
+  padding: 4px;
+  text-align: center;
+}
+
+.title {
 	margin-left: 19%;
 }	
 
