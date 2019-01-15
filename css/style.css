@@ -73,3 +73,9 @@ li a:hover:not(.active) {
 .active {
   	background-color: #b8e3ef;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
