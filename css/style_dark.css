@@ -62,9 +62,9 @@ li a {
   	display: block;
  	color: white;
   	text-align: center;
-  	padding: 20px 22px;
+  	padding: 16px 16px;
   	text-decoration: none;
-    background-color:#86868c;
+    	background-color:#86868c;
 }
 
 li a:hover:not(.active) {
