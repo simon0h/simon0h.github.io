@@ -42,14 +42,14 @@ hr {
   	border: 1px solid black;
   	width: 600px;
   	border-radius: 10px;
-  	margin: 4px;
+  	margin: 0px;
 }
 
 ul {
   	list-style-type: none;
   	margin: 1%;
   	padding-right: 40%;
-    padding-left: 40%;
+    	padding-left: 40%;
   	overflow: hidden;
   	background-color: #86868c;
 }
