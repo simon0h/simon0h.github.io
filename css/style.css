@@ -4,8 +4,8 @@
 }
 
 .header {
-  padding: 4px;
-  text-align: center;
+  	padding: 4px;
+  	text-align: center;
 }
 
 .title {
@@ -48,8 +48,6 @@ hr {
 ul {
   	list-style-type: none;
   	margin: 1%;
-  	padding-right: 40%;
-    	padding-left: 40%;
   	overflow: hidden;
   	background-color: #0c0849;
 }
@@ -75,7 +73,7 @@ li a:hover:not(.active) {
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
