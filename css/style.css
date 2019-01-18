@@ -46,22 +46,19 @@ hr {
 }
 
 ul {
-  	list-style-type: none;
-  	margin: 1%;
-  	overflow: hidden;
-  	background-color: #0c0849;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
-
 li {
-  	float: left;
+    display:inline;
 }
-
-li a {
-  	display: block;
- 	color: white;
-  	text-align: center;
-  	padding: 16px 16px;
-  	text-decoration: none;
+li a{
+    display:inline-block;
+    padding:10px;
 }
 
 li a:hover:not(.active) {
