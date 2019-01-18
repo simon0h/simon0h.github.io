@@ -61,11 +61,11 @@ li a{
     	padding: 10px;
 }
 
-li a:hover:not(.active) {
+/*li a:hover:not(.active) {
   	background-color: #b8e3ef;
 }
 
-/*.active {
+.active {
   	background-color: #b8e3ef;
 }*/
 
