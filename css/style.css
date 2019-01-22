@@ -67,3 +67,15 @@ img {
   	margin-left: auto;
   	margin-right: auto;
 }
+
+.img-container {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
