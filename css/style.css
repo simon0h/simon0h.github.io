@@ -14,10 +14,10 @@
 
 h2 {
 	margin-left: 22%;
-    }
+}
 	
 p {
-  	margin-left: 25%;
+ 	margin-left: 25%;
     	margin-right: 25%;
 	fomt-size: 135%;
 }
@@ -54,9 +54,11 @@ ul {
     	text-align: center;
     	background-color: #0c0849;
 }
+
 li {
     	display: inline;
 }
+
 li a{
     	display: inline-block;
     	padding: 10px;
