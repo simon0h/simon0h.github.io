@@ -26,6 +26,10 @@ p.linkArrow {
 	font-size: 300%;
 }
 
+p.lastParagraph {
+	padding-bottom: 60 px;
+}
+
 #email {
   	margin-left: 15px;
 }
