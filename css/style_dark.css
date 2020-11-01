@@ -40,7 +40,7 @@ p.lastParagraph {
 }
 
 a:link, a:visited, a:active{
-  	color: #1d6ff2;
+  	color: #C3A093;
   	text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ ul {
     	margin: 4px;
     	padding: 10px;
     	text-align: center;
-    	background-color: #0c0849;
+    	background-color: #383739;
 }
 
 li {
