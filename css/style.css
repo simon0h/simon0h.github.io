@@ -18,8 +18,8 @@ h2 {
 	
 p {
  	margin-left: 25%;
-    	margin-right: 25%;
-	fomt-size: 135%;
+  margin-right: 25%;
+	font-size: 135%;
 }
 
 p.linkArrow {
@@ -44,34 +44,34 @@ a:hover {
 }
 
 hr {
-  	border: 1px solid black;
-  	width: 600px;
-  	border-radius: 10px;
-  	margin: 0;
+	border: 1px solid black;
+	width: 600px;
+	border-radius: 10px;
+	margin: 0;
 }
 
 ul {
-    	border-width: 0;
-    	list-style: none;
-    	margin: 4px;
-    	padding: 10px;
-    	text-align: center;
-    	background-color: #0c0849;
+	border-width: 0;
+  list-style: none;
+  margin: 4px;
+	padding: 10px;
+	text-align: center;
+	background-color: #0c0849;
 }
 
 li {
-    	display: inline;
+   display: inline;
 }
 
 li a{
-    	display: inline-block;
-    	padding: 10px;
+  	display: inline-block;
+  	padding: 10px;
 }
 
 img {
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .img-container {
