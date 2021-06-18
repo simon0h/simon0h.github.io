@@ -17,10 +17,6 @@ body {
 	color: black;
 }
 
-h1 {
-	margin-left: 19%;
-}
-
 h2 {
 	margin-left: 22%;
 }
@@ -71,6 +67,10 @@ ul {
 	text-align: center;
 }
 
+.title {
+	margin-left: 18%;
+}
+
 @media (prefers-color-scheme: dark) {
 	* {
 		font-family: "Arial Rounded MT Bold", Verdana, Geneva, sans-serif;
@@ -89,10 +89,6 @@ ul {
 	body {
 		background-color: #121212;
 		color: white;
-	}
-
-	h1 {
-		margin-left: 19%;
 	}
 
 	h2 {
@@ -143,5 +139,9 @@ ul {
 	.header {
 		padding: 4px;
 		text-align: center;
+	}
+
+	.title {
+		margin-left: 18%;
 	}
 }
