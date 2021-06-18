@@ -1,46 +1,28 @@
 * {
 	font-family: "Arial Rounded MT Bold", Verdana, Geneva, sans-serif;
-  	font-color: #333;
-}
-
-.header {
-  	padding: 4px;
-  	text-align: center;
-}
-
-.title {
-	margin-left: 19%;
-}	
-
-h2 {
-	margin-left: 22%;
-}
-	
-p {
- 	margin-left: 25%;
-  margin-right: 25%;
-	font-size: 135%;
-}
-
-p.linkArrow {
-	font-size: 300%;
-}
-
-p.lastParagraph {
-	padding-bottom: 60px;
-}
-
-#email {
-  	margin-left: 15px;
+  font-color: black;
 }
 
 a:link, a:visited, a:active{
-  	color: #1d6ff2;
-  	text-decoration: none;
+	color: #C3A093;
+	text-decoration: none;
 }
 
 a:hover {
-  	text-decoration: underline;
+  text-decoration: underline;
+}
+
+body {
+	background-color: #FFFAF0;
+	color: black;
+}
+
+h1 {
+	margin-left: 19%;
+}
+
+h2 {
+	margin-left: 22%;
 }
 
 hr {
@@ -50,38 +32,116 @@ hr {
 	margin: 0;
 }
 
-ul {
-	border-width: 0;
-  list-style: none;
-  margin: 4px;
-	padding: 10px;
-	text-align: center;
-	background-color: #0c0849;
-}
-
-li {
-   display: inline;
-}
-
-li a{
-  	display: inline-block;
-  	padding: 10px;
-}
-
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.img-container {
-  float: left;
-  width: 50%;
-  padding: 10px;
+li {
+	display: inline;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+li a{
+	display: inline-block;
+	padding: 10px;
+}
+
+p {
+	font-size: 135%;
+ 	margin-left: 25%;
+  margin-right: 25%;
+}
+
+ul {
+	background-color: #383739;
+	border-width: 0;
+	list-style: none;
+	margin: 4px;
+	padding: 10px;
+	text-align: center;
+}
+
+#email {
+  margin-left: 15px;
+}
+
+.header {
+	padding: 4px;
+	text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+	* {
+		font-family: "Arial Rounded MT Bold", Verdana, Geneva, sans-serif;
+	  font-color: #333;
+	}
+
+	a:link, a:visited, a:active{
+		color: #C3A093;
+		text-decoration: none;
+	}
+
+	a:hover {
+	  text-decoration: underline;
+	}
+
+	body {
+		background-color: #121212;
+		color: white;
+	}
+
+	h1 {
+		margin-left: 19%;
+	}
+
+	h2 {
+		margin-left: 22%;
+	}
+
+	hr {
+		border: 1px solid black;
+		width: 600px;
+		border-radius: 10px;
+		margin: 0;
+	}
+
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	li {
+		display: inline;
+	}
+
+	li a{
+		display: inline-block;
+		padding: 10px;
+	}
+
+	p {
+		font-size: 135%;
+	 	margin-left: 25%;
+	  margin-right: 25%;
+	}
+
+	ul {
+		background-color: #383739;
+		border-width: 0;
+		list-style: none;
+		margin: 4px;
+		padding: 10px;
+		text-align: center;
+	}
+
+	#email {
+	  margin-left: 15px;
+	}
+
+	.header {
+		padding: 4px;
+		text-align: center;
+	}
 }
