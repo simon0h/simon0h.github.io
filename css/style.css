@@ -72,6 +72,7 @@ ul {
 }
 
 .title {
+	margin-left: auto;
 	text-align: center;
 }
 
@@ -150,6 +151,7 @@ ul {
 	}
 
 	.title {
+		margin-left: auto;
 		text-align: center;
 	}
 }
