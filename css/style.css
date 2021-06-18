@@ -17,6 +17,10 @@ body {
 	color: black;
 }
 
+h1 {
+	margin-left: 19%;
+}
+
 h2 {
 	margin-left: 22%;
 }
@@ -68,7 +72,7 @@ ul {
 }
 
 .title {
-	margin-left: 18%;
+	text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -89,6 +93,10 @@ ul {
 	body {
 		background-color: #121212;
 		color: white;
+	}
+
+	h1 {
+		margin-left: 19%;
 	}
 
 	h2 {
@@ -142,6 +150,6 @@ ul {
 	}
 
 	.title {
-		margin-left: 18%;
+		text-align: center;
 	}
 }
