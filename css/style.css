@@ -15,6 +15,7 @@ a:hover {
 body {
 	background-color: #FFFAF0;
 	color: black;
+	padding-bottom: 200px;
 }
 
 h1 {
@@ -95,6 +96,7 @@ ul {
 	body {
 		background-color: #121212;
 		color: white;
+		padding-bottom: 200px;
 	}
 
 	h1 {
@@ -152,8 +154,67 @@ ul {
 		text-align: center;
 	}
 
+	.tag {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    color: black;
+    margin-bottom: 0px;
+    text-align: center;
+    background: #D2BB9E;
+  }
+
+	.collapsible {
+	  background-color: #383739;;
+	  color: #F0B263;
+	  cursor: pointer;
+	  padding-top: 9px;
+	  padding-bottom: 9px;
+	  padding-left: 11px;
+	  padding-right: 11px;
+	  display: inline-block;
+	  border: none;
+	  text-align: left;
+	  border-radius: 8px;
+	  outline: none;
+	  font-size: 120%;
+	  margin-left: 25%;
+	  margin-right: 25%;
+	  margin-bottom: 20px;
+	}
+
+	.active, .collapsible:hover {
+  	background-color: #555;
+  	text-decoration: underline;
+	}
+
+	.content {
+	  padding: 0 18px;
+	  display: none;
+	  overflow: hidden;
+	  margin-top: 10px;
+	}
+
 	.title {
 		margin-left: auto;
 		text-align: center;
 	}
 }
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+} 
