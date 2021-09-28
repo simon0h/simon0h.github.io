@@ -4,7 +4,7 @@
 }
 
 a:link, a:visited, a:active{
-	color: #C3A093;
+	color: #DF931D;
 	text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ p {
 }
 
 ul {
-	background-color: #383739;
+	background-color: #514f53;
 	border-width: 0;
 	list-style: none;
 	margin: 4px;
@@ -84,7 +84,7 @@ ul {
 	}
 
 	a:link, a:visited, a:active{
-		color: #C3A093;
+		color: #F0B263;
 		text-decoration: none;
 	}
 
