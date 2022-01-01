@@ -1,5 +1,5 @@
 * {
-	font-family: "Arial Rounded MT Bold", Verdana, Geneva, sans-serif;
+	font-family: "Karla", Verdana, Geneva, sans-serif;
   font-color: black;
 }
 
@@ -19,11 +19,23 @@ body {
 }
 
 h1 {
+	font-weight: 500;
 	text-align: center;
 }
 
 h2 {
 	color: #A0A0A0;
+	font-size: 1.7em;
+	font-weight: 700;
+	margin-left: 25%;
+	text-align: left;
+	width: 60%;
+}
+
+h2.no_hr {
+	color: black;
+	font-size: 1.7em;
+	font-weight: 700;
 	margin-left: 25%;
 	text-align: left;
 	width: 60%;
@@ -53,6 +65,7 @@ li a{
 
 p {
 	font-size: 1.5em;
+	font-weight: 300;
  	margin-left: 25%;
   margin-right: 25%;
 }
@@ -60,6 +73,8 @@ p {
 ul {
 	background-color: #fcf3d4;
 	border-width: 0;
+	font-size: 1.1em;
+  font-weight: 500;
 	list-style: none;
 	margin: 4px;
 	padding: 10px;
@@ -106,13 +121,14 @@ ul {
 }
 
 .title {
+	font-weight: 700;
 	margin-left: auto;
 	text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
 	* {
-		font-family: "Arial Rounded MT Bold", Verdana, Geneva, sans-serif;
+		font-family: "Karla", Verdana, Geneva, sans-serif;
 	  font-color: #333;
 	}
 
@@ -132,11 +148,23 @@ ul {
 	}
 
 	h1 {
+		font-weight: 500;
 		text-align: center;
 	}
 
 	h2 {
+		font-size: 1.7em;
+		font-weight: 700;
 		color: #B0B0B0;
+		margin-left: 25%;
+		text-align: left;
+		width: 60%;
+	}
+
+	h2.no_hr {
+		color: white;
+		font-size: 1.7em;
+		font-weight: 700;
 		margin-left: 25%;
 		text-align: left;
 		width: 60%;
@@ -166,6 +194,7 @@ ul {
 
 	p {
 		font-size: 1.5em;
+		font-weight: 300;
 	 	margin-left: 25%;
 	  margin-right: 25%;
 	}
@@ -173,6 +202,8 @@ ul {
 	ul {
 		background-color: #383739;
 		border-width: 0;
+		font-size: 1.1em;
+    font-weight: 500;
 		list-style: none;
 		margin: 4px;
 		padding: 10px;
@@ -232,6 +263,7 @@ ul {
 	}
 
 	.title {
+		font-weight: 700;
 		margin-left: auto;
 		text-align: center;
 	}
