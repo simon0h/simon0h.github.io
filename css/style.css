@@ -23,13 +23,14 @@ h1 {
 }
 
 h2 {
+	color: #A0A0A0;
 	margin-left: 25%;
 	text-align: left;
 	width: 60%;
 }
 
 hr {
-	border: 2px solid black;
+	border: 2px solid #A0A0A0;
 	width: 53%;
 	margin-left: 25%;
 	margin-top: 2px;
@@ -135,13 +136,14 @@ ul {
 	}
 
 	h2 {
+		color: #B0B0B0;
 		margin-left: 25%;
 		text-align: left;
 		width: 60%;
 	}
 
 	hr {
-		border: 2px solid white;
+		border: 2px solid #B0B0B0;
 		width: 53%;
 		margin-left: 25%;
 		margin-top: 2px;
