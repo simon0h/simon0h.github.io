@@ -22,9 +22,14 @@ h1 {
 	text-align: center;
 }
 
+h2.first_h2 {
+  margin-top: 0;
+}
+
 h2 {
 	color: #A0A0A0;
 	margin-left: 25%;
+  margin-top: 85px;
 	text-align: left;
 	width: 60%;
 }
