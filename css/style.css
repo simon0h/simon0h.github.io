@@ -112,6 +112,13 @@ ul {
 
 @media only screen and (orientation: portrait) {
 	.collapsible {
+		padding-top: 25px;
+	  padding-bottom: 25px;
+	  padding-left: 30px;
+	  padding-right: 30px;
+	  font-size: 1.6em;
+	  margin-bottom: 40px;
+	  margin-top: 25px;
 	  margin-left: 10%;
 	}
 
@@ -143,7 +150,14 @@ ul {
 @media (prefers-color-scheme: dark) {
 	@media only screen and (orientation: portrait) {
 		.collapsible {
-	  	margin-left: 10%;
+	  	padding-top: 25px;
+		  padding-bottom: 25px;
+		  padding-left: 30px;
+		  padding-right: 30px;
+		  font-size: 1.6em;
+		  margin-bottom: 40px;
+		  margin-top: 25px;
+		  margin-left: 10%;
 		}
 
 		h2 {
