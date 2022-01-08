@@ -121,10 +121,19 @@ ul {
     margin-left: 10%;
   }
   
-  p {
-    margin-left: 10%;
-    margin-right: 10%;
- 	}
+  li a{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	p {
+	  margin-left: 10%;
+	  margin-right: 10%;
+	}
+
+	ul {
+  	font-size:1.4em;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -139,10 +148,19 @@ ul {
 		  margin-left: 10%;
 		}
 
+		li a{
+			padding-left: 15px;
+  		padding-right: 15px;
+  	}
+
 		p {
 		  margin-left: 10%;
 		  margin-right: 10%;
 		}
+
+		ul {
+    	font-size:1.4em;
+  	}
 	}
 
   * {
