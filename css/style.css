@@ -3,7 +3,7 @@
   font-color: black;
 }
 
-a:link, a:visited, a:active{
+a:link, a:visited, a:active {
 	color: #DF931D;
 	text-decoration: none;
 }
@@ -110,42 +110,76 @@ ul {
 	text-align: center;
 }
 
+@media only screen and (orientation: portrait) {
+  h2 {
+    margin-left: 10%;
+    width: 60%;
+  }
+  
+  hr {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+ 	}
+}
+
 @media (prefers-color-scheme: dark) {
-	* {
-	  font-color: #333;
+	@media only screen and (orientation: portrait) {
+		h2 {
+		  margin-left: 10%;
+		  width: 60%;
+		}
+
+		hr {
+		  width: 80%;
+		  margin-left: 10%;
+		}
+
+		p {
+		  margin-left: 10%;
+		  margin-right: 10%;
+		}
 	}
 
-	a:link, a:visited, a:active{
-		color: #F0B263;
-	}
+  * {
+    font-color: #333;
+  }
 
-	body {
-		background-color: #121212;
-		color: white;
-	}
+  a:link, a:visited, a:active {
+    color: #F0B263;
+  }
 
-	h2 {
-		color: #B0B0B0;
-	}
+  body {
+    background-color: #121212;
+    color: white;
+  }
 
-	hr {
-		border: 2px solid #B0B0B0;
-	}
+  h2 {
+    color: #B0B0B0;
+  }
 
-	ul {
-		background-color: #383739;
-	}
+  hr {
+    border: 2px solid #B0B0B0;
+  }
 
-	.tag {
+  ul {
+    background-color: #383739;
+  }
+
+  .tag {
     background: #D2BB9E;
   }
 
-	.collapsible {
-	  background-color: #383739;
-	  color: #F0B263;
-	}
+  .collapsible {
+    background-color: #383739;
+    color: #F0B263;
+  }
 
-	.active, .collapsible:hover {
-  	background-color: #555;
-	}
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
 }
