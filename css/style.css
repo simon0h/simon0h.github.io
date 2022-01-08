@@ -111,6 +111,10 @@ ul {
 }
 
 @media only screen and (orientation: portrait) {
+	.collapsible {
+	  margin-left: 15%;
+	}
+
   h2 {
     margin-left: 10%;
     width: 60%;
@@ -138,6 +142,10 @@ ul {
 
 @media (prefers-color-scheme: dark) {
 	@media only screen and (orientation: portrait) {
+		.collapsible {
+	  	margin-left: 15%;
+		}
+
 		h2 {
 		  margin-left: 10%;
 		  width: 60%;
