@@ -112,127 +112,40 @@ ul {
 
 @media (prefers-color-scheme: dark) {
 	* {
-		font-family: "Arial Rounded MT Bold", Verdana, Geneva, sans-serif;
 	  font-color: #333;
 	}
 
 	a:link, a:visited, a:active{
 		color: #F0B263;
-		text-decoration: none;
-	}
-
-	a:hover {
-	  text-decoration: underline;
 	}
 
 	body {
 		background-color: #121212;
 		color: white;
-		padding-bottom: 200px;
-	}
-
-	h1 {
-		text-align: center;
 	}
 
 	h2 {
 		color: #B0B0B0;
-		margin-left: 25%;
-		text-align: left;
-		width: 60%;
 	}
 
 	hr {
 		border: 2px solid #B0B0B0;
-		width: 53%;
-		margin-left: 25%;
-		margin-top: 2px;
-	}
-
-	img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	li {
-		display: inline;
-	}
-
-	li a{
-		display: inline-block;
-		padding: 10px;
-	}
-
-	p {
-		font-size: 1.5em;
-	 	margin-left: 25%;
-	  margin-right: 25%;
 	}
 
 	ul {
 		background-color: #383739;
-		border-width: 0;
-		list-style: none;
-		margin: 4px;
-		padding: 10px;
-		text-align: center;
-	}
-
-	#email {
-	  margin-left: 15px;
-	}
-
-	.header {
-		padding: 4px;
-		text-align: center;
 	}
 
 	.tag {
-    display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 8px;
-    color: black;
-    margin-bottom: 0px;
-    text-align: center;
     background: #D2BB9E;
   }
 
 	.collapsible {
 	  background-color: #383739;
 	  color: #F0B263;
-	  cursor: pointer;
-	  padding-top: 9px;
-	  padding-bottom: 9px;
-	  padding-left: 11px;
-	  padding-right: 11px;
-	  display: inline-block;
-	  border: none;
-	  text-align: left;
-	  border-radius: 8px;
-	  outline: none;
-	  font-size: 120%;
-	  margin-left: 25%;
-	  margin-right: 25%;
-	  margin-bottom: 20px;
 	}
 
 	.active, .collapsible:hover {
   	background-color: #555;
-  	text-decoration: underline;
-	}
-
-	.content {
-	  padding: 0 18px;
-	  display: none;
-	  overflow: hidden;
-	}
-
-	.title {
-		margin-left: auto;
-		text-align: center;
 	}
 }
