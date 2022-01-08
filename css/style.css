@@ -77,21 +77,21 @@ ul {
 
 .collapsible {
   background-color: #383739;
+  border: none;
+  border-radius: 8px;
   color: #F0B263;
   cursor: pointer;
+  display: inline-block;
+  font-size: 1.4em;
+  outline: none;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20px;
   padding-top: 9px;
   padding-bottom: 9px;
   padding-left: 11px;
   padding-right: 11px;
-  display: inline-block;
-  border: none;
   text-align: left;
-  border-radius: 8px;
-  outline: none;
-  font-size: 120%;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 20px;
 }
 
 .active, .collapsible:hover {
@@ -112,14 +112,15 @@ ul {
 
 @media only screen and (orientation: portrait) {
 	.collapsible {
+		border-radius: 14px;
+		font-size: 1.6em;
+	  margin-bottom: 40px;
+	  margin-top: 25px;
+	  margin-left: 10%;
 		padding-top: 25px;
 	  padding-bottom: 25px;
 	  padding-left: 30px;
 	  padding-right: 30px;
-	  font-size: 1.6em;
-	  margin-bottom: 40px;
-	  margin-top: 25px;
-	  margin-left: 10%;
 	}
 
   h2 {
@@ -150,14 +151,15 @@ ul {
 @media (prefers-color-scheme: dark) {
 	@media only screen and (orientation: portrait) {
 		.collapsible {
-	  	padding-top: 25px;
-		  padding-bottom: 25px;
-		  padding-left: 30px;
-		  padding-right: 30px;
-		  font-size: 1.6em;
+			border-radius: 14px;
+			font-size: 1.6em;
 		  margin-bottom: 40px;
 		  margin-top: 25px;
 		  margin-left: 10%;
+			padding-top: 25px;
+		  padding-bottom: 25px;
+		  padding-left: 30px;
+		  padding-right: 30px;
 		}
 
 		h2 {
