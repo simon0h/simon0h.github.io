@@ -42,7 +42,7 @@ hr {
 }
 
 img {
-	border-radius:15%;
+	border-radius: 15%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -176,6 +176,10 @@ ul {
 		hr {
 		  width: 80%;
 		  margin-left: 10%;
+		}
+
+		img {
+			border: 3px solid #555;
 		}
 
 		li a{
