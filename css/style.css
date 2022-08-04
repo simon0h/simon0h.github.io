@@ -91,7 +91,7 @@ ul {
 }
 
 .collapsible {
-  background-color: #383739;
+  background-color: #818181;
   border: none;
   border-radius: 8px;
   color: #F0B263;
@@ -243,7 +243,7 @@ ul {
   }
 
   .collapsible {
-    background-color: #818181;
+    background-color: #383739;
     color: #F0B263;
   }
 
